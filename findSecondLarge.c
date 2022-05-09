@@ -23,13 +23,13 @@ int main()
     }
     for(int i = 0; i<n; i++)
     {
-        if(max == a[i]){
+        if(max == a[i])
+        {
             continue;
-        }else if(secondLage<a[i]){
-
-                secondLage = a[i];
-
-
+        }
+        else if(secondLage<a[i])
+        {
+            secondLage = a[i];
         }
     }
 
